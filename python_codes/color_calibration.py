@@ -32,7 +32,7 @@ cv2.createTrackbar("Upper S", "Color Tuner", 255, 255, nothing)
 cv2.createTrackbar("Upper V", "Color Tuner", 255, 255, nothing)
 
 # Open video file or webcam
-video_path = "/home/pablo/Documents/MIR_S2/optimization/old_vid_buoy.mp4"  # Change to your video file or use 0 for webcam
+video_path = "phone_objects_videos/orange_buoy.mp4"  # Change to your video file or use 0 for webcam
 cap = cv2.VideoCapture(video_path)
 
 # Get FPS for playback speed control
